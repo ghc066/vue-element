@@ -1,0 +1,39 @@
+[{
+  "name": "首页",
+  "icon": "el-icon-star-on",
+  "index": "/",
+  "haschild": false
+}, {
+  "name": "组件",
+  "icon": "el-icon-menu",
+  "haschild": true,
+  "index": "2",
+  "children": [{
+    "name": "Layout布局",
+    "link": "/layout"
+  }, {
+    "name": "Container容器",
+    "link": "/container"
+  }, {
+    "name": "Icon图标",
+    "link": "/icon"
+  }, {
+    "name": "Button按钮",
+    "link": "/button"
+  }]
+}, {
+  "name": "表格",
+  "icon": "el-icon-date",
+  "index": "/table",
+  "haschild": false
+}, {
+  "name": "表单",
+  "icon": "el-icon-edit",
+  "index": "/form",
+  "haschild": false
+}, {
+  "name": "文件上传",
+  "icon": "el-icon-upload",
+  "index": "/upload",
+  "haschild": false
+}]
